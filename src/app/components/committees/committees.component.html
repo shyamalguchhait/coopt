@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="committees">
+        <div class="text">Committees</div>
+        <div *ngFor="let d of data" class="committee">
+            <div class="name">{{d.name}}</div>
+            <hr />
+            <div *ngFor="let member of d.members; index as i" class="members">
+                <span class="name">{{member}}</span>,
+                <span class="email">
+                    <a href="mailto:{{d.email[i]}}@iiserkol.ac.in">{{d.email[i]}}@iiserkol.ac.in</a></span>
+            </div>
+        </div>
+    </div>
+</div>

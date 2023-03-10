@@ -1,0 +1,73 @@
+<div class="navigation">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" routerLink="/">CoOpt2023</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" routerLink="/" style="--clr:#ec2019;">Welcome
+              <span></span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link remove" routerLink="/about" style="--clr:#29da19;">About
+              <span></span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link remove" routerLink="/registration" style="--clr:#ecde19;">Registration
+              <span></span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link remove" routerLink="/dates" style="--clr:#000111;">Dates
+              <span></span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link remove" routerLink="/topics" style="--clr:#197bec;">Topics
+              <span></span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link remove" routerLink="/speakers" style="--clr:#197bec;">Speakers
+              <span></span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link remove" routerLink="/committees" style="--clr:#197bec;">Committees
+              <span></span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link remove" routerLink="contact" style="--clr:#ec19da;">Contact
+              <span></span>
+            </a>
+          </li>
+        </ul>
+        <ul class="navbar-nav me-2">
+          <li class="nav-item">
+            <a class="switch">
+              <input class="toggle" type="checkbox" id="switch" name="mode" />
+              <label for="switch"> Toggle </label>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+<div class="container">
+  <div class="index">
+    <h1>CoOpt webpage</h1>
+    <div class="name"></div>
+    <div class="text">IISER Kolkata.</div>
+  </div>
+</div>
+<router-outlet></router-outlet>
+
+<footer>&copy; &#169; &#xA9; copyright 2023, Shyamal Guchhait</footer>

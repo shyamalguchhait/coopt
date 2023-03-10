@@ -1,0 +1,48 @@
+@import "../../../colors.scss";
+@import "../../../fonts.scss";
+
+.committees {
+    color: var(--lightColor);
+    font-family: lato;
+
+    .text {
+        text-align: center;
+        font-size: xx-large;
+        font-weight: bold;
+        margin: 10px;
+    }
+
+    .committee {
+        padding: 1em;
+        border: 1px solid var(--lightColor);
+
+        > .name {
+            font-size: x-large;
+            font-weight: bold;
+        }
+        hr {
+            border: 5px dotted var(--lightColor);
+            border-radius: 5px;
+        }
+
+        .members {
+            .name {
+                font-size: large;
+                font-weight: bold;
+            }
+
+            .email {
+                a {
+                    color: var(--lightPhEmail);
+                    text-decoration: none;
+                    @include hoverUnderline;
+
+                    &:hover {
+                        font-weight: bold;
+                        font-style: italic;
+                    }
+                }
+            }
+        }
+    }
+}

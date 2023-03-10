@@ -1,0 +1,117 @@
+[
+    {
+        "name": "Coordinators",
+        "members": [
+            "Jeevan Kumar Nayak",
+            "Biswajit Das",
+            "Niladri Modak"
+        ],
+        "email": [
+            "jkn19rs027",
+            "bd18ip005",
+            "nm16ip018"
+        ]
+    },
+    {
+        "name": "Website management",
+        "members": [
+            "Shyamal Guchhait",
+            "Sauvik Roy",
+            "Poulami Ghosh",
+            "Anisha Majhi"
+        ],
+        "email": [
+            "sg16ip022",
+            "sr19rs022",
+            "pg20rs111",
+            "am19ip017"
+        ]
+    },
+    {
+        "name": "Finance",
+        "members": [
+            "Anita Pahi",
+            "Niladri Modak"
+        ],
+        "email": [
+            "ap19rs045",
+            "nm16ip018"
+        ]
+    },
+    {
+        "name": "Food",
+        "members": [
+            "Soumya Mukherjee",
+            "Siddhant",
+            "Biswajit Das"
+        ],
+        "email": [
+            "sm17rs025",
+            "",
+            "bd18ip005"
+        ]
+    },
+    {
+        "name": "Transport",
+        "members": [
+            "Anand Dev Ranjan",
+            "Shyamal Guchhait",
+            "Sramana Das"
+        ],
+        "email": [
+            "adr20rs068",
+            "sg16ip022",
+            "sd22rs032"
+        ]
+    },
+    {
+        "name": "Accommodation",
+        "members": [
+            "Ram Nandan Kumar",
+            "Ritwick Dhara"
+        ],
+        "email": [
+            "rnk17ip025",
+            "rd21ip025"
+        ]
+    },
+    {
+        "name": "Logistics",
+        "members": [
+            "Suman Mandal",
+            "Anupama"
+        ],
+        "email": [
+            "sm22rs100",
+            "a20rs102"
+        ]
+    },
+    {
+        "name": "Registration",
+        "members": [
+            "Anjan Kumar N M",
+            "Anwesha Panda",
+            "Debdatta Roy"
+        ],
+        "email": [
+            "aknm17rs046",
+            "ap22rs022",
+            ""
+        ]
+    },
+    {
+        "name": "PR and Sponsorship",
+        "members": [
+            "Shuvojit Pal",
+            "Debdatta Roy",
+            "Jeevan Kumar Nayak",
+            "Anand Dev Ranjan"
+        ],
+        "email": [
+            "",
+            "",
+            "jkn19rs027",
+            "adr20rs068"
+        ]
+    }
+]
